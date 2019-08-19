@@ -45,5 +45,4 @@ export class TasksService {
 
         await this.taskRepository.remove(task);
     }
-
 }
